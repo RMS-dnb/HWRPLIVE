@@ -1,1 +1,0 @@
-greenlamp = { name = 'greenlamp', label = 'greenlamp', weight = 2, type = 'item', image = 'greenlamp.png', unique = false, useable = true, shouldClose = true, description = 'greenlamp' },

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mosquito>
-    <CWeaponInfo>
-        <Name>weapon_pistol_m1899</Name>
-           <ShortArmHolsterDOF value="2" /> <!-- You can alter the value from 0 to 3, the higher the value the deeper it goes into the holster. -->
-    </CWeaponInfo>
-</mosquito>

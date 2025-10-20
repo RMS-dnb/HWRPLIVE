@@ -1,1 +1,0 @@
-You can alter the value from 0 to 3, the high the value the deeper it goes into the holster.
