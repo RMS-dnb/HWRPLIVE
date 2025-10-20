@@ -1,0 +1,153 @@
+{
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 2 },
+        },
+        receive = 'shotgunbarrel',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'iron_bar',  amount = 1 },
+            [2] = { item = 'wood', amount = 2 },
+        },
+        receive = 'shotgunstock',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'iron_bar',  amount = 1 },
+            [2] = { item = 'wood', amount = 2 },
+        },
+        receive = 'riflestock',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 2 },
+            [2] = { item = 'iron_bar', amount = 1 },
+        },
+        receive = 'riflereceiver',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 2 },
+        },
+        receive = 'riflebarrel',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'iron_bar',  amount = 1 },
+            [2] = { item = 'wood', amount = 2 },
+        },
+        receive = 'repeaterstock',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 2 },
+            [2] = { item = 'iron_bar', amount = 1 },
+        },
+        receive = 'repeaterreceiver',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 2 },
+        },
+        receive = 'repeaterbarrel',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 1 },
+            [2] = { item = 'iron_bar', amount = 1 },
+        },
+        receive = 'pistolreceiver',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 1 },
+        },
+        receive = 'pistolbarrel',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 1 },
+            [2] = { item = 'wood', amount = 1 },
+        },
+        receive = 'revolverhandle',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 1 },
+            [2] = { item = 'iron_bar', amount = 1 },
+        },
+        receive = 'revolvercylinder',
+        giveamount = 1
+    },
+    {
+        category = 'Parts',
+        crafttime = 30000,
+        craftingxp = 0,
+        
+        ingredients = { 
+            [1] = { item = 'steel_bar',  amount = 1 },
+        },
+        receive = 'revolverbarrel',
+        giveamount = 1
+    },
+
+}

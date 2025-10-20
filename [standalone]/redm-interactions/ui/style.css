@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "Chinese Rocks";
+	src: url("chineserocks.ttf");
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: none;
+	font-family: "Chinese Rocks";
+	font-size: 1vw;
+}
+
+#interaction-picker {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translate(0, -50%);
+    background: black;
+	color: grey;
+}
+
+
+#interaction-picker-title {
+	text-align: center;
+	padding: 0.5vh 0.5vw;
+	background: url("https://cdn.discordapp.com/attachments/1102813194709377095/1122434287904489563/logotest.png");
+	font-size: 1.25vw;
+}
+
+.interaction.selected {
+	background: black;
+	color: red;
+}

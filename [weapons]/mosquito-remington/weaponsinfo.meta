@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tomas>
+    <CWeaponInfo>
+        <Name>weapon_revolver_navy_crossover</Name>
+          <!-- Ammo type you want to use, you can choose whatever ammo type you want ask in a ticket for help-->
+
+        <!-- <Audio>audio_item_rpt_evans</Audio> -->
+        <ClipInfos>
+            <Item>
+                <Type>Cylinder</Type>
+                <Size value="6" />
+                <BulletsPerAnimLoop value="1" />
+            </Item>
+        </ClipInfos>
+  <!-- Ammo type you want to use, you can choose whatever ammo type you want ask in a ticket for help-->
+        <!-- <DamageModes>
+            <Item>
+              <AmmoInfo>AMMO_SHOTGUN_SLUG</AmmoInfo>
+              <Name>DM_AMMO_SLUG</Name>
+              <ClipIndex value="0" />
+              <Damage value="80.00000000" />
+              <DamageType>BULLET</DamageType>
+              <Penetration value="10.00000000" />
+              <Explosion>
+                <Default>EXP_TAG_DONTCARE</Default>
+                <HitCar>EXP_TAG_DONTCARE</HitCar>
+                <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+                <HitBike>EXP_TAG_DONTCARE</HitBike>
+                <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+                <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+              </Explosion>
+              <AccuracyInfo>0x4AC70024</AccuracyInfo>
+              <DamageFallOffInfo>0x9A84B79E</DamageFallOffInfo>
+              <MeleeExecutionDismemberment value="-1.00000000" />
+              <DismembermentRanges />
+              <ImpulseMultiplier value="-1.00000000" />
+              <NmShotTuningSet />
+              <RecoilShakeHash />
+              <RecoilShakeHashFirstPerson />
+              <RecoilShakeAmplitude value="-1.00000000" />
+              <RecoilShakeAmplitudeFirstPerson value="-1.00000000" />
+              <PlayerDamagedByPlayerModifier value="-1.00000000" />
+            </Item>
+        </DamageModes> -->
+
+        
+        <WeaponReload type="CWeaponReload">
+            <ReloadTime value="-1" />
+            <VehicleReloadTime value="-1" />
+            <AnimReloadRate value="0.7" />
+        </WeaponReload>
+        <WeaponForce>
+          <Force value="50.00000000" />
+          <ForceHitPed value="35.00000000" />
+          <ForceHitVehicle value="35.00000000" />
+          <ForceHitFlyingHeli value="14.00000000" />
+          <OverrideForces />
+          <ForceMaxStrengthMult value="1.00000000" />
+          <ForceFalloffRangeStart value="15.00000000" />
+          <ForceFalloffRangeEnd value="15.00000000" />
+          <ForceFalloffMin value="0.50000000" />
+          <ProjectileForce value="0.00000000" />
+        </WeaponForce>
+        <DismembermentRanges>
+            <Item>
+                <DismembermentIncrement value="1" />
+                <DismembermentPercent value="1.00000000" />
+                <MaxRange value="25.00000000" />
+            </Item>
+            <Item>
+                <DismembermentIncrement value="1" />
+                <DismembermentPercent value="0.50000000" />
+                <MaxRange value="25.00000000" />
+            </Item>
+            <Item>
+                <DismembermentIncrement value="1" />
+                <DismembermentPercent value="0.50000000" />
+                <MaxRange value="25.00000000" />
+            </Item>
+            <Item>
+                <DismembermentIncrement value="1" />
+                <DismembermentPercent value="0.50000000" />
+                <MaxRange value="25.00000000" />
+            </Item>
+        </DismembermentRanges>
+        <DismembermentSetting />
+        <MeleeExecutionDismemberment value="1.00000000" />
+        <WeaponCamera type="CWeaponCamera">
+            <CameraFov value="55" />
+            <FirstPersonAimFovMax value="90" />
+            <FirstPersonAimFovMin value="90" />
+            <FirstPersonDofSubjectMagnificationPowerFactorNear value="0.62500000" />
+            <ZoomFactorForAccurateMode value="0.70000000" />
+        </WeaponCamera>
+    <!--    <WeaponDamageModifiers>
+            <AIDamagedByPlayerModifier value="1.750000000" />
+            <PlayerDamagedByAIModifier value="1.00000000" />
+            <PlayerDamagedByPlayerModifier value="1.30000000" /> -->
+            <RecoilShakeHash>SHOTGUN_RECOIL_SHAKE</RecoilShakeHash>
+        </WeaponDamageModifiers>
+        <WeaponRanges type="CWeaponRanges">
+            <LockOnRange value="45" />
+            <LockOnRangeInVehicle value="45" />
+            <IdleLockOnRangeModifier value="1" />
+            <SoftLockDurationOverride value="-1" />
+            <WeaponRange value="85" />
+            <WeaponRangeInVehicle value="85" />
+            <MeleeWeaponRangeMin value="1.5" />
+            <MeleeWeaponRangeMax value="2" />
+            <MeleeWeaponRangeMaxRun value="4" />
+            <MeleeWeaponRangeMinToRun value="20" />
+            <DesiredRange value="20" />
+            <ProjectileRangeMin value="-1" />
+            <ProjectileRangeMax value="-1" />
+            <AiSoundRange value="-1" />
+            <AiPotentialBlastEventRange value="-1" />
+        </WeaponRanges>
+
+    <!--<WeaponHeadShotDistance>
+            <MaxHeadShotDistanceAI value="150.000000" />
+            <MaxHeadShotDistancePlayer value="0.000000" />
+            <MaxHeadShotDistanceToPlayerWithScope value="1000.000000" />
+            <MinHeadShotDistanceAI value="1.000000" />
+            <MinHeadShotDistancePlayer value="0.000000" />
+        </WeaponHeadShotDistance> -->
+    </CWeaponInfo>
+</Tomas>
+
+
+

@@ -1,0 +1,22 @@
+🌟 Features:
+• Modern Glass UI Design
+• Multi-Format Support
+• Favorites & History System
+• Quick Copy & Teleport
+• Search Functionality
+
+🔧 Tech:
+• Vue.js
+• FiveM NUI
+• Tailwind CSS
+• Anime.js
+
+💻 Perfect for:
+• Server Developers
+• Map Creators
+• Admins
+• Content Creators
+
+🌐 Website: https://eyestore.tebex.io/
+📦 Download: https://github.com/raiderss/es-coords/edit/main
+💬 Discord: https://discord.gg/EkwWvFS

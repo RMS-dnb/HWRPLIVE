@@ -1,0 +1,23 @@
+{
+  "chat_placeholder": "テキストを入力してください...",
+  "commands_placeholder": "[TAB]を押してチャンネルを切り替え",
+  "system": "システム",
+  "chat_history_disabled": "チャット履歴が無効になりました",
+  "chat_history_enabled": "チャット履歴が有効になりました",
+  "message_too_long": "メッセージが長すぎます。最大：%d文字。",
+  "spam_detected": "メッセージが早すぎます。お待ちください。",
+  "player_not_found": "プレイヤーが見つかりません。",
+  "ooc_disabled": "このサーバーでOOCチャンネルが無効になっています。",
+  "ooc_local_disabled": "このサーバーでOOCローカルチャンネルが無効になっています。",
+  "ooc_staff_locked": "OOCチャンネルはスタッフによって一時的にロックされています。理由：%s",
+
+  "channel_locked": "チャンネル%sは%sによってロックされました。理由：%s",
+  "channel_unlocked": "チャンネル%sはスタッフによって再開されました。",
+  "ooc_history_cleared": "OOCチャンネルの履歴はスタッフによってクリアされました。",
+
+  "staff_no_permission": "このコマンドを使用する権限がありません。",
+  "ooc_closed_success": "OOCチャンネルが正常に閉じられました。",
+  "ooc_opened_success": "OOCチャンネルが正常に再開されました。"
+
+}
+

@@ -1,0 +1,19 @@
+{
+  "chat_placeholder": "Digite sua mensagem...",
+  "commands_placeholder": "Pressione [TAB] para trocar de canal",
+  "system": "SISTEMA",
+  "chat_history_disabled": "O histórico do chat foi desativado",
+  "chat_history_enabled": "O histórico do chat foi ativado",
+  "message_too_long": "Mensagem muito longa. Máximo: %d caracteres.",
+  "spam_detected": "Muitas mensagens muito rapidamente. Aguarde um pouco.",
+  "player_not_found": "Jogador não encontrado.",
+  "ooc_disabled": "Canal OOC está desabilitado neste servidor.",
+  "ooc_local_disabled": "Canal OOC Local está desabilitado neste servidor.",
+  "ooc_staff_locked": "Canal OOC está temporariamente bloqueado por staff. Motivo: %s",
+  "channel_locked": "Canal %s foi bloqueado por %s. Motivo: %s",
+  "channel_unlocked": "Canal %s foi reaberto por staff.",
+  "ooc_history_cleared": "Histórico do canal OOC foi limpo por staff.",
+  "staff_no_permission": "Você não tem permissão para usar este comando.",
+  "ooc_closed_success": "Canal OOC foi fechado com sucesso.",
+    "ooc_opened_success": "Canal OOC foi reaberto com sucesso."
+}

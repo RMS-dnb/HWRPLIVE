@@ -1,0 +1,249 @@
+@font-face {
+    font-family: rdr2;
+    src: url("rdr2.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-drag:none;
+    text-rendering: optimizeLegibility !important;
+}
+
+:root {
+    --shadow: rgba(17, 17, 17, 0.25);
+    --black-100: rgba(17, 17, 17, 1);
+    --white-100: rgba(238, 238, 238, 1);
+    --red-100: rgba(170, 0, 0, 1);
+    --green-100: rgba(75, 111, 68, 1);
+    --cyan-100: rgba(0, 73, 83, 1);
+    --gold-100: rgba(255, 215, 0, 1);
+    --black-090: rgba(17, 17, 17, .9);
+    --white-090: rgba(238, 238, 238, .9);
+    --red-090: rgba(170, 0, 0, .9);
+    --green-090: rgba(68, 105, 57, .9);
+    --cyan-090: rgba(0, 73, 83, .9);
+    --gold-090: rgba(255, 215, 0, .9);
+}
+
+html {display: none;}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: 'rdr2';
+    font-size: 1vw;
+}
+
+players {
+    position: absolute;
+    width: 25vw;
+    height: 42vh;
+    bottom: 1vh;
+    left: 1vh;
+    /* overflow: hidden; */
+    background: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+shared {
+    position: absolute;
+    width: 46vh;
+    height: 14vh;
+    top: 1vh;
+    right: 1vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+shared card {
+    position: relative;
+    width: calc(44.6vh*0.2);
+    height: 13vh;
+    margin-left: 0.25vh !important;
+    margin-right: 0.25vh !important;
+    filter: drop-shadow(0.2vh 0.3vh 0.1vh var(--shadow));
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 54vh;
+}
+
+hold {
+    position: absolute;
+    width: 35vh;
+    height: 22vh;
+    bottom: -5vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+hold card {
+    position: relative;
+    width: calc(27.45vh*0.5);
+    height: 20vh;
+    margin-left: -1vh !important;
+    margin-right: -1vh !important;
+    filter: drop-shadow(0.2vh 0.3vh 0.1vh var(--shadow));
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -22vh;
+    transition: transform .5s ease;
+}
+
+pot {
+    position: absolute;
+    width: 35vh;
+    height: 22vh;
+    top: 1vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2.5vh;
+    text-transform: uppercase;
+    color: var(--white-100);
+    white-space: nowrap;
+    text-shadow: 0.125vh 0.125vh 0.0625vh var(--black-090);
+}
+
+/* ////////////////////// */
+/*        PLAYERS         */
+
+person {
+    width: 97.5%;
+    height: 6vh;
+    background: transparent;
+    margin-top: 0.5vh !important;
+    margin-bottom: 0.5vh !important;
+    /* overflow: hidden; */
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+name, info {
+    width: 99%;
+    height: 50%;
+    background: transparent;
+    border-radius: 1vh;
+    transition: .5s ease;
+}
+
+name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+name span {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    color: var(--white-100);
+    white-space: nowrap;
+    text-shadow: 0.125vh 0.125vh 0.0625vh var(--black-090);
+}
+
+info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+money, action, bet {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vh;
+}
+
+info img {
+    position: absolute;
+    display: none;
+    width: 3.5vh;
+    height: auto;
+    margin-top: -0.5vh !important;
+    opacity: 0;
+    animation: fadeIn 2s;
+}
+
+#vw25 {
+    left: 25vw;
+}
+
+#vw254 {
+    left: 27.5vw;
+}
+
+action {
+    white-space: nowrap;
+}
+
+.wait, .next, .small {
+    background: var(--black-090);
+    color: var(--white-100);
+}
+
+.play {
+    background: var(--white-090);
+    color: var(--black-100);
+}
+
+.mainpot {
+    background: var(--gold-090);
+    color: var(--cyan-100);
+}
+
+.noplay, .fold, .left, .loser {
+    background: var(--red-090);
+    color: var(--white-100);
+}
+
+.call, .check, .raise, .big, .winner, .split {
+    background: var(--green-090);
+    color: var(--white-100);
+}
+
+.allin {
+    background: var(--cyan-090);
+    color: var(--white-100);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* ////////////////////// */

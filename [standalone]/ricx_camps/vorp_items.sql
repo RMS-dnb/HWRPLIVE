@@ -1,0 +1,2 @@
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('camp_totem', 'Camp Totem', 5, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('camp_supply', 'Camp Supply', 300, 1, 'item_standard', 0);

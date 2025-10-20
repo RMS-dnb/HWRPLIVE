@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tomas>
+        <CWeaponInfo>
+     <Properties />
+     <Name>weapon_revolver_doubleaction_gambler</Name>
+     <Model />
+     <SwapClipSetHash />
+     <GripClipSetHash />
+     <GripClipHash />
+     <Audio>prnpuxea_0x4b4838ab</Audio>
+     <Slot>mwriafxb_0xc81c8406</Slot>
+     <FireType>BULLET</FireType>
+     <Group>mncarafb_0x18d5fa97</Group>
+     <WeaponType>Shortarm</WeaponType>
+     <SwapWeaponType>Weapon_Shortarm</SwapWeaponType>
+     <Score value="370" />
+     <ScoreMP value="-1" />
+     <AnimationLookupHash>weapon_pistol_semiauto</AnimationLookupHash>
+     <DamageModes itemType="CWeaponDamageModeInfo">
+      <Item>
+       <AmmoInfo>ammo_pistol</AmmoInfo>
+       <Name>xstdwnhb_0x7d576643</Name>
+       <ClipIndex value="0" />
+       <Damage value="23" />
+       <DamageType>BULLET</DamageType>
+       <Penetration value="1.2" />
+       <Explosion type="CWeaponExplosionInfo">
+        <Default>EXP_TAG_DONTCARE</Default>
+        <HitCar>EXP_TAG_DONTCARE</HitCar>
+        <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+        <HitBike>EXP_TAG_DONTCARE</HitBike>
+        <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+        <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+       </Explosion>
+       <AccuracyInfo />
+       <DamageFallOffInfo />
+       <MeleeExecutionDismemberment value="-1" />
+       <DismembermentRanges />
+       <ImpulseMultiplier value="-1" />
+       <NmShotTuningSet />
+       <RecoilShakeHash />
+       <RecoilShakeHashFirstPerson />
+       <RecoilShakeAmplitude value="-1" />
+       <RecoilShakeAmplitudeFirstPerson value="-1" />
+       <PlayerDamagedByPlayerModifier value="-1" />
+      </Item>
+      <Item>
+       <AmmoInfo>ammo_pistol_high_velocity</AmmoInfo>
+       <Name>swxtowba_0x91ae2bf6</Name>
+       <ClipIndex value="0" />
+       <Damage value="25" />
+       <DamageType>BULLET</DamageType>
+       <Penetration value="1.2" />
+       <Explosion type="CWeaponExplosionInfo">
+        <Default>EXP_TAG_DONTCARE</Default>
+        <HitCar>EXP_TAG_DONTCARE</HitCar>
+        <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+        <HitBike>EXP_TAG_DONTCARE</HitBike>
+        <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+        <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+       </Explosion>
+       <AccuracyInfo />
+       <DamageFallOffInfo>eaoptwdb_0xd092ce2c</DamageFallOffInfo>
+       <MeleeExecutionDismemberment value="-1" />
+       <DismembermentRanges />
+       <ImpulseMultiplier value="-1" />
+       <NmShotTuningSet />
+       <RecoilShakeHash />
+       <RecoilShakeHashFirstPerson />
+       <RecoilShakeAmplitude value="-1" />
+       <RecoilShakeAmplitudeFirstPerson value="-1" />
+       <PlayerDamagedByPlayerModifier value="-1" />
+      </Item>
+      <Item>
+       <AmmoInfo>ammo_pistol_split_point</AmmoInfo>
+       <Name>ygnvhdwc_0x374dbf2e</Name>
+       <ClipIndex value="0" />
+       <Damage value="27.5" />
+       <DamageType>BULLET</DamageType>
+       <Penetration value="1.2" />
+       <Explosion type="CWeaponExplosionInfo">
+        <Default>EXP_TAG_DONTCARE</Default>
+        <HitCar>EXP_TAG_DONTCARE</HitCar>
+        <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+        <HitBike>EXP_TAG_DONTCARE</HitBike>
+        <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+        <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+       </Explosion>
+       <AccuracyInfo />
+       <DamageFallOffInfo />
+       <MeleeExecutionDismemberment value="-1" />
+       <DismembermentRanges />
+       <ImpulseMultiplier value="-1" />
+       <NmShotTuningSet />
+       <RecoilShakeHash />
+       <RecoilShakeHashFirstPerson />
+       <RecoilShakeAmplitude value="-1" />
+       <RecoilShakeAmplitudeFirstPerson value="-1" />
+       <PlayerDamagedByPlayerModifier value="-1" />
+      </Item>
+      <Item>
+       <AmmoInfo>ammo_pistol_express</AmmoInfo>
+       <Name>xtqzoqja_0x7032d190</Name>
+       <ClipIndex value="0" />
+       <Damage value="30" />
+       <DamageType>BULLET</DamageType>
+       <Penetration value="1" />
+       <Explosion type="CWeaponExplosionInfo">
+        <Default>EXP_TAG_DONTCARE</Default>
+        <HitCar>EXP_TAG_DONTCARE</HitCar>
+        <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+        <HitBike>EXP_TAG_DONTCARE</HitBike>
+        <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+        <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+       </Explosion>
+       <AccuracyInfo />
+       <DamageFallOffInfo />
+       <MeleeExecutionDismemberment value="-1" />
+       <DismembermentRanges />
+       <ImpulseMultiplier value="-1" />
+       <NmShotTuningSet />
+       <RecoilShakeHash />
+       <RecoilShakeHashFirstPerson />
+       <RecoilShakeAmplitude value="-1" />
+       <RecoilShakeAmplitudeFirstPerson value="-1" />
+       <PlayerDamagedByPlayerModifier value="-1" />
+      </Item>
+      <Item>
+       <AmmoInfo>vyhilona_0x46a648c2</AmmoInfo>
+       <Name>fxvlijea_0x27eb68bd</Name>
+       <ClipIndex value="0" />
+       <Damage value="120" />
+       <DamageType>EXPLOSIVE</DamageType>
+       <Penetration value="0" />
+       <Explosion type="CWeaponExplosionInfo">
+        <Default>EXP_TAG_BULLET</Default>
+        <HitCar>EXP_TAG_DONTCARE</HitCar>
+        <HitTruck>EXP_TAG_DONTCARE</HitTruck>
+        <HitBike>EXP_TAG_DONTCARE</HitBike>
+        <HitBoat>EXP_TAG_DONTCARE</HitBoat>
+        <HitPlane>EXP_TAG_DONTCARE</HitPlane>
+       </Explosion>
+       <AccuracyInfo />
+       <DamageFallOffInfo />
+       <MeleeExecutionDismemberment value="-1" />
+       <DismembermentRanges />
+       <ImpulseMultiplier value="-1" />
+       <NmShotTuningSet />
+       <RecoilShakeHash />
+       <RecoilShakeHashFirstPerson />
+       <RecoilShakeAmplitude value="-1" />
+       <RecoilShakeAmplitudeFirstPerson value="-1" />
+       <PlayerDamagedByPlayerModifier value="-1" />
+      </Item>
+     </DamageModes>
+     <AimingInfo>fshrjefa_0xde4ee4ce</AimingInfo>
+     <ClipInfos itemType="dyasubaa_0xde99e9ed">
+      <Item>
+       <Type>Magazine</Type>
+       <Size value="8" />
+       <BulletsPerAnimLoop value="8" />
+      </Item>
+     </ClipInfos>
+     <drhjdoja_0x16fed869 />
+     <AccuracyInfo>vwhprhia_0x571e3ba8</AccuracyInfo>
+     <DamageFallOffInfo>kepooxla_0x73d7f0ef</DamageFallOffInfo>
+     <WeaponHeadShotDistance type="CWeaponHeadShotDistance">
+      <MinHeadShotDistanceAI value="1" />
+      <MaxHeadShotDistanceAI value="80" />
+      <MinHeadShotDistancePlayer value="5" />
+      <MaxHeadShotDistancePlayer value="40" />
+      <MaxHeadShotDistanceToPlayerWithScope value="-1" />
+     </WeaponHeadShotDistance>
+     <WeaponDamageModifiers type="CWeaponDamageModifiers">
+      <HeadShotDamageModifierAI value="1000" />
+      <HeadShotDamageModifierPlayer value="10" />
+      <NonRegionLimbDamageModifier value="0.5" />
+      <LightlyArmouredDamageModifier value="0.75" />
+      <HeadOnCloseRangePedModifier value="2" />
+      <ddghspla_0x1806425c value="0.4" />
+      <CriticalHitChanceModifier value="1" />
+      <VehicleDamageModifier value="1" />
+      <PlayerDamagedByPlayerModifier value="1.85000000" />
+      <PlayerDamagedByAIModifier value="1.20000000" />
+      <AIDamagedByPlayerModifier value="1" />
+     </WeaponDamageModifiers>
+     <WeaponDamageTime type="CWeaponDamageTime">
+      <DamageTime value="0" />
+      <DamageTimeInVehicle value="0" />
+      <DamageTimeInVehicleHeadShot value="0" />
+     </WeaponDamageTime>
+     <WeaponForce type="CWeaponForce">
+      <Force value="50" />
+      <ForceHitPed value="100" />
+      <ForceHitVehicle value="750" />
+      <ForceHitFlyingHeli value="3000" />
+      <OverrideForces itemType="CWeaponsHitBoneForceOverride">
+       <Item>
+        <BoneTag>ID_SKEL_HEAD</BoneTag>
+        <ForceFront value="50" />
+        <ForceBack value="50" />
+       </Item>
+       <Item>
+        <BoneTag>ID_SKEL_NECK2</BoneTag>
+        <ForceFront value="50" />
+        <ForceBack value="50" />
+       </Item>
+      </OverrideForces>
+      <ForceMaxStrengthMult value="1" />
+      <ForceFalloffRangeStart value="0" />
+      <ForceFalloffRangeEnd value="50" />
+      <ForceFalloffMin value="1" />
+      <ProjectileForce value="0" />
+     </WeaponForce>
+     <MeleeExecutionDismemberment value="0" />
+     <DismembermentRanges itemType="sDismembermentRange">
+      <Item>
+       <MaxRange value="5" />
+       <DismembermentPercent value="0" />
+       <DismembermentIncrement value="1" />
+      </Item>
+      <Item>
+       <MaxRange value="15" />
+       <DismembermentPercent value="0" />
+       <DismembermentIncrement value="1" />
+      </Item>
+      <Item>
+       <MaxRange value="25" />
+       <DismembermentPercent value="0" />
+       <DismembermentIncrement value="1" />
+      </Item>
+      <Item>
+       <MaxRange value="50" />
+       <DismembermentPercent value="0" />
+       <DismembermentIncrement value="1" />
+      </Item>
+     </DismembermentRanges>
+     <DismembermentSetting />
+     <tgdwhuba_0x78bb5b90 value="1" />
+     <FragImpulse value="251" />
+     <VerticalLaunchAdjustment value="0" />
+     <LaunchPitchCorrectionMax value="90" />
+     <DropForwardVelocity value="0" />
+     <Speed value="2000" />
+     <MaxDrawingMBR value="-1" />
+     <BatchSpread value="0" />
+     <WeaponReload type="CWeaponReload">
+      <ReloadTime value="-1" />
+      <VehicleReloadTime value="2" />
+      <AnimReloadRate value="0.6" />
+      <SectionedReloadInfo>pistol_semiauto</SectionedReloadInfo>
+      <SectionedReloadInfoDual>ankxgpab_0x09a3d7bf</SectionedReloadInfoDual>
+     </WeaponReload>
+     <CockingInfo>ruxthifa_0x2b51e163</CockingInfo>
+     <LassoTune />
+     <IkRecoilInfo>lnvvdvqa_0xd6fa915b</IkRecoilInfo>
+     <QuiverInfo />
+     <WeaponTimeBetweenShots type="CWeaponTimeBetweenShots">
+      <TimeBetweenShotsMin value="0.25" />
+      <TimeBetweenShotsMax value="0.25" />
+      <TimeLeftBetweenShotsWhereShouldFireIsCached value="-1" />
+      <SpinUpTime value="0" />
+      <SpinTime value="0" />
+      <SpinDownTime value="0" />
+      <AlternateWaitTime value="-1" />
+     </WeaponTimeBetweenShots>
+     <WeaponBulletBending type="CWeaponBulletBending">
+      <BulletBendingNearRadius value="0.0125" />
+      <BulletBendingFarRadius value="0.75" />
+      <BulletBendingZoomedRadius value="0.375" />
+      <FirstPersonBulletBendingNearRadius value="0.0125" />
+      <FirstPersonBulletBendingFarRadius value="0.375" />
+      <FirstPersonBulletBendingZoomedRadius value="0" />
+     </WeaponBulletBending>
+     <Vfx type="CWeaponInfo__sVfx">
+      <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
+      <VfxBloodInfoHashName>oyljueha_0xef860b81</VfxBloodInfoHashName>
+      <VfxBloodMeleeInfoHashName>waylpjfa_0x9e5c1353</VfxBloodMeleeInfoHashName>
+      <VfxBloodPoolInfoHashName>djasfrfa_0x13585f5e</VfxBloodPoolInfoHashName>
+      <VfxWeaponImpactAmmoInfoHashName>qfohegab_0xe100a2b9</VfxWeaponImpactAmmoInfoHashName>
+      <VfxWeaponImpactAmmoStrengthEvo value="0.7" />
+      <VfxWeaponImpactMeleeInfoHashName>fsbvpcyc_0xe94b7e71</VfxWeaponImpactMeleeInfoHashName>
+      <VfxWeaponImpactMeleeStrengthEvo value="0" />
+      <VfxWeaponMuzzlePositionOverride x="0" y="0" z="0" w="0" />
+      <VfxWeaponMuzzleFlashInfoHashName>okkcthna_0x31d9d4f7</VfxWeaponMuzzleFlashInfoHashName>
+      <VfxWeaponMuzzleSmokeInfoHashName>kxcwakea_0xc67b42c3</VfxWeaponMuzzleSmokeInfoHashName>
+      <VfxWeaponBarrelSmokeInfoHashName />
+      <VfxWeaponHammerInfoHashName />
+      <VfxWeaponTracerInfoHashName>qoxojgha_0xd5551261</VfxWeaponTracerInfoHashName>
+      <VfxWeaponShellInfoHashName>midgyusa_0x94662936</VfxWeaponShellInfoHashName>
+      <VfxWeaponGroundDisturbInfoHashName />
+      <VfxWeaponInteriorSmokeInfoHashName>ohxrpgub_0xe141f083</VfxWeaponInteriorSmokeInfoHashName>
+      <VfxWeaponAirDebrisInfoHashName>kqgseina_0x9977cd9e</VfxWeaponAirDebrisInfoHashName>
+     </Vfx>
+     <WindDisturbance type="CWeaponInfo__sWindDisturbance">
+      <WindDisturbanceMuzzleInfoHashName>qyxfmppa_0xc9a04eb7</WindDisturbanceMuzzleInfoHashName>
+      <WindDisturbanceBulletInfoHashName>htvnrnka_0x300807a5</WindDisturbanceBulletInfoHashName>
+     </WindDisturbance>
+     <DegradationInfo>vhwoteea_0x4b5d7c49</DegradationInfo>
+     <FamiliarityInfo>uzthqoga_0x6d7c4d28</FamiliarityInfo>
+     <RumbleInfo>mpsxczua_0x09e400e5</RumbleInfo>
+     <WeaponRanges type="CWeaponRanges">
+      <LockOnRange value="45" />
+      <LockOnRangeInVehicle value="45" />
+      <IdleLockOnRangeModifier value="1" />
+      <SoftLockDurationOverride value="-1" />
+      <WeaponRange value="85" />
+      <WeaponRangeInVehicle value="85" />
+      <MeleeWeaponRangeMin value="1.5" />
+      <MeleeWeaponRangeMax value="2" />
+      <MeleeWeaponRangeMaxRun value="4" />
+      <MeleeWeaponRangeMinToRun value="20" />
+      <DesiredRange value="20" />
+      <ProjectileRangeMin value="-1" />
+      <ProjectileRangeMax value="-1" />
+      <AiSoundRange value="-1" />
+      <AiPotentialBlastEventRange value="-1" />
+     </WeaponRanges>
+     <BulletDirectionOffsetInDegrees value="0" />
+     <zhluknqa_0xc824f688 value="1" />
+     <IsSpecialWeapon value="False" />
+     <IsOutlawWeapon value="False" />
+     <UnlockWeaponHash>weapon_pistol_semiauto</UnlockWeaponHash>
+     <BrokenWeaponHash />
+     <VehicleWeaponHash />
+     <WeaponCamera type="CWeaponCamera">
+      <CameraDictionaryHash />
+      <DefaultCameraHash>default_third_person_ped_aim_camera</DefaultCameraHash>
+      <InteractionLockonCameraHash>cpdwsipa_0x5d3defd9</InteractionLockonCameraHash>
+      <AimCameraHash />
+      <FireCameraHash />
+      <HorseCameraHash>judewpha_0x65b60988</HorseCameraHash>
+      <CoverCameraHash>txcoczca_0xc4e1f206</CoverCameraHash>
+      <CoverReadyToFireCameraHash>vqvullia_0x0797bd96</CoverReadyToFireCameraHash>
+      <CoverHipFireCameraHash>vqvullia_0x0797bd96</CoverHipFireCameraHash>
+      <RunAndGunCameraHash>default_third_person_ped_run_and_gun_camera</RunAndGunCameraHash>
+      <CinematicShootingCameraHash />
+      <GrappleCameraHash>izfuxfpa_0xfbe36564</GrappleCameraHash>
+      <CameraFov value="45" />
+      <FirstPersonAimFovMin value="42" />
+      <FirstPersonAimFovMax value="47" />
+      <FirstPersonDofSubjectMagnificationPowerFactorNear value="1.025" />
+      <FirstPersonDofMaxNearInFocusDistance value="0" />
+      <FirstPersonDofMaxNearInFocusDistanceBlendLevel value="0.3" />
+      <ZoomFactorForAccurateMode value="1" />
+      <RecoilShakeHash>default_third_person_recoil_shake</RecoilShakeHash>
+      <RecoilShakeHashFirstPerson>fps_pistol_recoil_shake</RecoilShakeHashFirstPerson>
+      <AccuracyOffsetShakeHash />
+      <MinTimeBetweenRecoilShakes value="150" />
+      <RecoilShakeAmplitude value="1" />
+      <RecoilShakeAmplitudeFirstPerson value="1" />
+      <ExplosionShakeAmplitude value="-1" />
+     </WeaponCamera>
+     <CoverTypeHash>duitswpa_0x74d02303</CoverTypeHash>
+     <cvnpnwgb_0x239bf1c9>weapon_pistol_semiauto</cvnpnwgb_0x239bf1c9>
+     <WeaponReticule type="CWeaponReticule">
+      <ReticuleHudPosition x="0.5" y="0.5" />
+      <ReticuleStyleHash>pistol</ReticuleStyleHash>
+      <FirstPersonReticuleStyleHash />
+      <ReticleSwaySettleDuration value="0.75" />
+      <ReticleSwayPostSettleRestartTime value="6" />
+      <ReticleSwayAmplitudeModifierNear value="1" />
+      <ReticleSwayAmplitudeModifierFar value="1" />
+      <ReticleSwayRangeNear value="1" />
+      <ReticleSwayRangeFar value="1.25" />
+     </WeaponReticule>
+     <WeaponAimOffsets type="CWeaponAimOffsets">
+      <AimOffsetMin x="0.2" y="-0.025" z="0.4" />
+      <AimOffsetMax x="0.275" y="-0.05" z="0.525" />
+      <TorsoAimOffset x="-1" y="0.55" />
+      <TorsoCrouchedAimOffset x="0.2" y="0.05" />
+      <AimProbeLengthMin value="0.4" />
+      <AimProbeLengthMax value="0.375" />
+      <AimOffsetMinFPSIdle x="0" y="0" z="0" />
+      <AimOffsetMedFPSIdle x="0" y="0" z="0" />
+      <AimOffsetMaxFPSIdle x="0" y="0" z="0" />
+      <AimOffsetMinFPSLT x="0" y="0" z="0" />
+      <AimOffsetMaxFPSLT x="0" y="0" z="0" />
+      <AimOffsetMinFPSRNG x="0" y="0" z="0" />
+      <AimOffsetMaxFPSRNG x="0" y="0" z="0" />
+      <AimOffsetMinFPSScope x="0" y="0" z="0" />
+      <AimOffsetMaxFPSScope x="0" y="0" z="0" />
+      <AimOffsetEndPosMinFPSIdle x="0" y="0" z="0" />
+      <AimOffsetEndPosMedFPSIdle x="0" y="0" z="0" />
+      <AimOffsetEndPosMaxFPSIdle x="0" y="0" z="0" />
+      <AimOffsetEndPosMinFPSLT x="0" y="0" z="0" />
+      <AimOffsetEndPosMedFPSLT x="0" y="0" z="0" />
+      <AimOffsetEndPosMaxFPSLT x="0" y="0" z="0" />
+      <AimProbeRadiusOverrideFPSIdle value="0" />
+      <AimProbeRadiusOverrideFPSIdleStealth value="0" />
+      <AimProbeRadiusOverrideFPSLT value="0" />
+      <AimProbeRadiusOverrideFPSRNG value="0" />
+      <AimProbeRadiusOverrideFPSScope value="0" />
+     </WeaponAimOffsets>
+     <WeaponIkOffset type="CWeaponIkOffset">
+      <LeftHandIkOffset x="0" y="0" z="0" />
+      <IkRecoilDisplacement value="0" />
+      <IkRecoilDisplacementScope value="0" />
+      <IkRecoilDisplacementScaleBackward value="1" />
+      <IkRecoilDisplacementScaleVertical value="0.4" />
+      <UpperArmTranslationBias value="0" />
+     </WeaponIkOffset>
+     <PickupHash>zuwuzyaa_0x660b342f</PickupHash>
+     <MPPickupHash>fsxuajga_0xf04c974e</MPPickupHash>
+     <PermanentDegradationHumanName>urebbdha_0x2f603c2a</PermanentDegradationHumanName>
+     <MovementModeConditionalIdle />
+     <StatName>lvmqhepa_0x5f439f88</StatName>
+     <SkillStatName />
+     <WeaponNM type="CWeaponNM">
+      <KnockdownCount value="3" />
+      <KillshotImpulseScale value="1.2" />
+      <NmShotTuningSet>normal</NmShotTuningSet>
+      <NmHeadShotTuningSet>headshot</NmHeadShotTuningSet>
+      <NmNeckShotTuningSet>neckshot</NmNeckShotTuningSet>
+      <NmChestShotTuningSet />
+      <NmBackShotTuningSet>backshot</NmBackShotTuningSet>
+      <NmArmShotTuningSet>armshot</NmArmShotTuningSet>
+      <NmLegShotTuningSet>legshot</NmLegShotTuningSet>
+     </WeaponNM>
+     <PrimaryHandBlackboardString>qfptgifa_0x61fdd2ed</PrimaryHandBlackboardString>
+     <SupportingHandBlackboardString />
+     <SecondaryHandBlackboardString>hzbekxda_0xad6b83cb</SecondaryHandBlackboardString>
+     <AttachPoints />
+     <FireProbeBone>ID_SKEL_ROOT</FireProbeBone>
+      <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload UsableInCover UsableInVehicle UseSectionedReload UsableOnFoot UsableClimbing HasLowCoverSwaps jcdhepyb_0x6f3b1d01 OnlyFireOneShot OnlyFireOneShotPerTriggerPress NoLeftHandIK ForceEjectShellAfterFiring AllowCloseQuarterKills nvgdyvaa_0x75138dbf UseFPSAimIK UseFPSSecondaryMotion umptwfba_0xce1e0473 CanHipFire gisenogc_0x1fce1778 eroojgxa_0x081f0bdd mxyqgwca_0xc6550be0 mejutvba_0x1fe95b8b ExclusivelyHolstered jboloira_0x42d5f625 bjkrjdfa_0x40b6cd20 fxopleia_0xd250dfdb HasIronSight fgdasmaa_0x46b4f2e8 feinzjha_0x07982641 allphuga_0x27895875 dktocfia_0x323db9e4 bjmigdaa_0xd62ed034</WeaponFlags>
+     <DefaultAIAttackMode>Shoot</DefaultAIAttackMode>
+     <AIAttackModes>Shoot</AIAttackModes>
+     <TintSpecValues>tint_default</TintSpecValues>
+     <FiringPatternAliases>hsrhvdba_0xd6e51a7a</FiringPatternAliases>
+     <ReloadUpperBodyFixupExpressionData />
+     <WeaponAdditiveWeight type="CWeaponAdditiveWeight">
+      <AimingBreathingAdditiveWeight value="1" />
+      <FiringBreathingAdditiveWeight value="0" />
+      <StealthAimingBreathingAdditiveWeight value="0" />
+      <StealthFiringBreathingAdditiveWeight value="0" />
+      <AimingLeanAdditiveWeight value="1" />
+      <FiringLeanAdditiveWeight value="1" />
+      <StealthAimingLeanAdditiveWeight value="1" />
+      <StealthFiringLeanAdditiveWeight value="1" />
+     </WeaponAdditiveWeight>
+     <DistanceFromTargetToSlideToDefaultLockOnBoneMin value="0" />
+     <DistanceFromTargetToSlideToDefaultLockOnBoneMax value="0" />
+     <ExpandPedCapsuleRadius value="0" />
+     <MeleeAnimPlaybackRate x="1" y="1.5" z="1" w="1" />
+     <AudioCollisionHash />
+     <HolsterAttachPoint>WEAPON_ATTACH_POINT_PISTOL_R</HolsterAttachPoint>
+     <AlternateHolsterAttachPoint>WEAPON_ATTACH_POINT_PISTOL_L</AlternateHolsterAttachPoint>
+     <MutuallyExclusiveHolsterAttachPoint>WEAPON_ATTACH_POINT_INVALID</MutuallyExclusiveHolsterAttachPoint>
+     <MutuallyExclusiveAlternateHolsterAttachPoint>WEAPON_ATTACH_POINT_INVALID</MutuallyExclusiveAlternateHolsterAttachPoint>
+     <ArmpitAttachPoint>WEAPON_ATTACH_POINT_INVALID</ArmpitAttachPoint>
+     <TemporaryAttachPoint>WEAPON_ATTACH_POINT_INVALID</TemporaryAttachPoint>
+     <ShortArmHolsterDOF value="3" />
+     <WeaponDualWieldAccuracyMod type="CWeaponDualWieldAccuracyMod">
+      <PairedWithPistolAccuracyModifier value="1" />
+      <PairedWithRevolverAccuracyModifier value="1" />
+      <PairedWithShotgunAccuracyModifier value="1" />
+     </WeaponDualWieldAccuracyMod>
+     <LightRadiusMult value="1" />
+     <LightRadiusMultLerpTime value="0" />
+     <VehicleAttackAngle value="25" />
+     <MaxDeadeyeTaggedTargets value="-1" />
+     <TorsoIKAngleLimit value="-1" />
+     <MeleeRightFistTargetHealthDamageScaler value="-1" />
+     <AirborneAircraftLockOnMultiplier value="1" />
+     <CamoDiffuseTexIdxs />
+     <Caliber>WEAPON_CALIBER_SMALL</Caliber>
+     <VertData>gtgnhwba_0xbe5f6711</VertData>
+     <MotivationImpactMultiplier value="1" />
+     <LookingGlassDefaultScopeInfo />
+    </CWeaponInfo>
+    
+</Tomas>

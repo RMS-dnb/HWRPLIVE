@@ -1,0 +1,15 @@
+{
+  "prayer_in_progress": "En prière...",
+  "prayer_completed": "Prière terminée",
+  "prayer_completed_desc": "Vous vous sentez plus serein",
+  "prayer_interrupted": "Prière interrompue",
+  "prayer_interrupted_desc": "Votre prière a été interrompue",
+  "soul_at_peace": "Moment de paix",
+  "soul_at_peace_desc": "Votre âme a déjà été apaisée, accordez-vous un moment de réflexion",
+  "not_in_church": "Prière impossible",
+  "not_in_church_desc": "Vous devez être dans une église pour prier",
+  "sacred_place": "Lieu sacré",
+  "sacred_place_desc": "Vous pouvez maintenant prier ici",
+  "prompt_pray": "Prier",
+  "prompt_group": "Église"
+}

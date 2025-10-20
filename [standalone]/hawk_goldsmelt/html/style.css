@@ -1,0 +1,125 @@
+body {
+    /* background: #111; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    margin-top: 20vh;
+    overflow: hidden;
+  }
+  
+  .progress-container {
+    display: none;
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 120px;
+    min-height: 120px;
+  }
+  
+  .progress-ring {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .progress-ring-bg {
+    fill: none;
+    stroke: #333333a2;
+    stroke-width: 10;
+  }
+  
+  .progress-ring-circle {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-dasharray: 565.48;
+    stroke-dashoffset: 565.48;
+    transition: stroke 1.5s ease, stroke-dashoffset 1.0s ease-out;
+  }
+  
+  #progress-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #444444c2;
+    color: #fff;
+    border: none;
+    font-size: 5.0vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    outline: none;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+  
+  #gear {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+  
+  #progress-button:hover {
+    background: #666666cc;
+  }
+  
+  @keyframes spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .spin {
+    animation: spin 1s linear infinite;
+  }
+  
+  #target-zone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: 2;
+    background: conic-gradient(
+      transparent 0% 60%,
+      rgba(233, 132, 0, 0.61) 60% 70%,
+      transparent 70% 100%
+    );
+    animation: blink 1.2s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 0.7; }
+  }
+  
+  #success-count {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 1.7vw;
+    font-weight: bold;
+    user-select: none;
+  }
+  

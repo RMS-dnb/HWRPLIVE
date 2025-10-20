@@ -1,0 +1,10 @@
+REDEMRP:
+---------------------------------------------------
+Add the following line to redemrp_inventory cl_main.lua file's reloadweapons function:
+(function by default: https://github.com/RedEM-RP/redemrp_inventory/blob/2.0/client/cl_main.lua#L118)
+
+after the SetPedAmmo(PlayerPedId(), k.WeaponHash , k.Ammo)
+line
+(https://github.com/RedEM-RP/redemrp_inventory/blob/2.0/client/cl_main.lua#L123)
+the following:
+TriggerEvent('ricx_guns:addc', k.name, k.WeaponHash, k.meta) 

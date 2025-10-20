@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Game - Circular Progress</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-container">
+    <div id="target-zone"></div>
+    <div id="success-count">0%</div>
+
+    <svg class="progress-ring" width="200" height="200">
+      <circle class="progress-ring-bg" r="90" cx="100" cy="100"/>
+      <circle class="progress-ring-circle" r="90" cx="100" cy="100"/>
+    </svg>
+    
+    <button id="progress-button"><span id="gear">⚙</span></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

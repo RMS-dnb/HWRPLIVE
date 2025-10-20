@@ -1,0 +1,22 @@
+{
+  "chat_placeholder": "Geben Sie Ihren Text ein...",
+  "commands_placeholder": "Drücken Sie [TAB] zum Wechseln der Kanäle",
+  "system": "SYSTEM",
+  "chat_history_disabled": "Chat-Verlauf wurde deaktiviert",
+  "chat_history_enabled": "Chat-Verlauf wurde aktiviert",
+  "message_too_long": "Nachricht zu lang. Maximum: %d Zeichen.",
+  "spam_detected": "Zu viele Nachrichten zu schnell. Bitte warten.",
+  "player_not_found": "Spieler nicht gefunden.",
+  "ooc_disabled": "OOC-Kanal ist auf diesem Server deaktiviert.",
+  "ooc_local_disabled": "OOC Local-Kanal ist auf diesem Server deaktiviert.",
+  "ooc_staff_locked": "OOC-Kanal ist vorübergehend von Staff gesperrt. Grund: %s",
+
+  "channel_locked": "Kanal %s wurde von %s gesperrt. Grund: %s",
+  "channel_unlocked": "Kanal %s wurde von Staff wieder geöffnet.",
+  "ooc_history_cleared": "OOC-Kanalverlauf wurde von Staff gelöscht.",
+
+  "staff_no_permission": "Sie haben keine Berechtigung, diesen Befehl zu verwenden.",
+  "ooc_closed_success": "OOC-Kanal wurde erfolgreich geschlossen.",
+  "ooc_opened_success": "OOC-Kanal wurde erfolgreich wieder geöffnet.",
+
+}

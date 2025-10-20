@@ -1,0 +1,18 @@
+{
+  "prayer_in_progress": "Praying...",
+  "prayer_completed": "Prayer complete",
+  "prayer_completed_desc": "Your spirit feels calmer",
+  "prayer_interrupted": "Prayer interrupted",
+  "prayer_interrupted_desc": "Your prayer was interrupted",
+  "soul_at_peace": "Moment of peace",
+  "soul_at_peace_desc": "Your soul is already at peace; take a quiet moment",
+  "not_in_church": "Can't pray here",
+  "not_in_church_desc": "You must be in a church to pray",
+  "sacred_place": "Consecrated ground",
+  "sacred_place_desc": "You can now pray here",
+  "prompt_pray": "Pray",
+  "prompt_group": "Church",
+
+  "missing_item": "Missing Item",
+  "need_bible": "You need a Bible or Rosary to pray"
+}

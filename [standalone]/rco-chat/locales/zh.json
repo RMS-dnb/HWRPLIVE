@@ -1,0 +1,22 @@
+{
+  "chat_placeholder": "输入您的文本...",
+  "commands_placeholder": "按 [TAB] 切换频道",
+  "system": "系统",
+  "chat_history_disabled": "聊天历史记录已禁用",
+  "chat_history_enabled": "聊天历史记录已启用",
+  "message_too_long": "消息太长。最大：%d 个字符。",
+  "spam_detected": "消息发送过快。请稍等。",
+  "player_not_found": "未找到玩家。",
+  "ooc_disabled": "此服务器上 OOC 频道已禁用。",
+  "ooc_local_disabled": "此服务器上 OOC 本地频道已禁用。",
+  "ooc_staff_locked": "OOC 频道已被管理员临时锁定。原因：%s",
+
+  "channel_locked": "频道 %s 已被 %s 锁定。原因：%s",
+  "channel_unlocked": "频道 %s 已被管理员重新开放。",
+  "ooc_history_cleared": "OOC 频道历史记录已被管理员清除。",
+
+  "staff_no_permission": "您没有权限使用此命令。",
+  "ooc_closed_success": "OOC 频道已成功关闭。",
+  "ooc_opened_success": "OOC 频道已成功重新开放。"
+
+}

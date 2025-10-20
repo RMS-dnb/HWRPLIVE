@@ -1,0 +1,22 @@
+{
+  "chat_placeholder": "Inserisci il tuo testo...",
+  "commands_placeholder": "Premi [TAB] per cambiare canale",
+  "system": "SISTEMA",
+  "chat_history_disabled": "La cronologia della chat è stata disabilitata",
+  "chat_history_enabled": "La cronologia della chat è stata abilitata",
+  "message_too_long": "Messaggio troppo lungo. Massimo: %d caratteri.",
+  "spam_detected": "Troppi messaggi troppo velocemente. Per favore aspetta.",
+  "player_not_found": "Giocatore non trovato.",
+  "ooc_disabled": "Il canale OOC è disabilitato su questo server.",
+  "ooc_local_disabled": "Il canale OOC Local è disabilitato su questo server.",
+  "ooc_staff_locked": "Il canale OOC è temporaneamente bloccato dallo staff. Motivo: %s",
+
+  "channel_locked": "Il canale %s è stato bloccato da %s. Motivo: %s",
+  "channel_unlocked": "Il canale %s è stato riaperto dallo staff.",
+  "ooc_history_cleared": "La cronologia del canale OOC è stata cancellata dallo staff.",
+
+  "staff_no_permission": "Non hai i permessi per usare questo comando.",
+  "ooc_closed_success": "Il canale OOC è stato chiuso con successo.",
+  "ooc_opened_success": "Il canale OOC è stato riaperto con successo.",
+
+}

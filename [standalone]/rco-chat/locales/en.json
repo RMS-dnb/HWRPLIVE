@@ -1,0 +1,22 @@
+{
+  "chat_placeholder": "Enter your text...",
+  "commands_placeholder": "Press [TAB] to switch channels",
+  "system": "SYSTEM",
+  "chat_history_disabled": "Chat history has been disabled",
+  "chat_history_enabled": "Chat history has been enabled",
+  "message_too_long": "Message too long. Maximum: %d characters.",
+  "spam_detected": "Too many messages too quickly. Please wait.",
+  "player_not_found": "Player not found.",
+  "ooc_disabled": "OOC channel is disabled on this server.",
+  "ooc_local_disabled": "OOC Local channel is disabled on this server.",
+  "ooc_staff_locked": "OOC channel is temporarily locked by staff. Reason: %s",
+
+  "channel_locked": "Channel %s was locked by %s. Reason: %s",
+  "channel_unlocked": "Channel %s was reopened by staff.",
+  "ooc_history_cleared": "OOC channel history was cleared by staff.",
+
+  "staff_no_permission": "You don't have permission to use this command.",
+  "ooc_closed_success": "OOC channel was closed successfully.",
+  "ooc_opened_success": "OOC channel was reopened successfully."
+
+}

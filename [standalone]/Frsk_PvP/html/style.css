@@ -1,0 +1,29 @@
+#combatIndicator {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;      /* distance from the top */
+  left: 12px;    /* distance from the right */
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#innerIndicator {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#innerIndicator img {
+  width: 15px;
+  height: 15px;
+  border-radius: 15%;
+}

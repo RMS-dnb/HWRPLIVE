@@ -1,0 +1,1 @@
+ ['antipoison']           = {['name'] = 'antipoison',           ['label'] = 'Anti Snake Venom',                 ['weight'] = 100, ['type'] = 'item', ['image'] = 'antipoison.png',      ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Anti Snake Venom'},

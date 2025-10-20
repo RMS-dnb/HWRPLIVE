@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f200;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#loadingRange {
+    position: absolute;
+    top: 63%;
+    left: 64%;
+    width: 10px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1px;
+}
+
+#loadingRange2 {
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    width: 10px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1px;
+}
+
+#loadingBar {
+ 
+    position: absolute;
+    top: 63%;
+    left: 24%;
+    width: 0;
+    height: 90px;
+    background-color: #ffffff;
+    margin: 1px auto;
+    border-radius: 10px;
+}
+
+#radius {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    width: 1000px;
+    height: 80px;
+    background-color: #ffffff00;
+    margin: 1px auto;
+    border-radius: 10px;
+    border: 15px solid #000000;
+    transform: translate(-50%, -50%);
+
+}
+
+#pressSpacebar {
+    font-weight: bold; 
+    color: #ffffff;
+    background-color: #171a20;
+    padding: 10px 20px;
+    border-radius: 30px; 
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+    font-size: 30px;
+}
+
+#successMessage {
+    text-align: center;
+    font-weight: bold; 
+    color: #00cc25; 
+    background-color: #171a20;
+    padding: 10px 20px;
+    border-radius: 30px; 
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+    font-size: 30px;
+}
+
+#toggleButton {
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+#toggleButton:hover {
+    background-color: #45a049; 
+} 
+
+#img1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold; 
+    background-color: #171a20;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+
+#img2 {
+    position: absolute;
+    top: 55.7%;
+    left: 49%;
+    font-weight: bold; 
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+
+#img3 {
+    position: absolute;
+    top: 53%;
+    left: 49%;
+    font-weight: bold; 
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+} 
+
+
+#img4 {
+    position: absolute;
+    top: 43.3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 140px;
+    height: 140px;
+}
+
+
+
